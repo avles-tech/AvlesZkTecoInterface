@@ -1,0 +1,23 @@
+﻿Installing assembly 'C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.InstallLog
+   assemblypath = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe
+Rolling back assembly 'C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.InstallLog
+   assemblypath = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe
+Installing assembly 'C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.InstallLog
+   assemblypath = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe
+Installing service AvlesZKTecoInterfac...
+Service AvlesZKTecoInterfac has been successfully installed.
+Creating EventLog source AvlesZKTecoInterfac in log Application...
+Committing assembly 'C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.InstallLog
+   assemblypath = C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe

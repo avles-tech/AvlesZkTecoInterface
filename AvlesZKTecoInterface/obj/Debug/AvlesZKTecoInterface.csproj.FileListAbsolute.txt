@@ -1,0 +1,12 @@
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe.config
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.exe
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\AvlesZKTecoInterface.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.AssemblyReference.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.ProjectInstaller.resources
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.GenerateResource.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.CoreCompileInputs.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.exe
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\ZMKeeperCore.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\ZMKeeperCore.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.CopyComplete

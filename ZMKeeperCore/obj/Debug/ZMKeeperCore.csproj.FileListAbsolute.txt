@@ -1,0 +1,8 @@
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\bin\Debug\ZMKeeperCore.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\bin\Debug\ZMKeeperCore.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\obj\Debug\ZMKeeperCore.csproj.AssemblyReference.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\obj\Debug\ZMKeeperCore.csproj.ResolveComReference.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\obj\Debug\ZMKeeperCore.csproj.CoreCompileInputs.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\obj\Debug\ZMKeeperCore.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\ZMKeeperCore\obj\Debug\ZMKeeperCore.pdb

@@ -1,0 +1,10 @@
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\bin\Debug\TestInterface.exe.config
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\bin\Debug\TestInterface.exe
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\bin\Debug\TestInterface.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\bin\Debug\ZMKeeperCore.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\bin\Debug\ZMKeeperCore.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\obj\Debug\TestInterface.csproj.AssemblyReference.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\obj\Debug\TestInterface.csproj.CoreCompileInputs.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\obj\Debug\TestInterface.csproj.CopyComplete
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\obj\Debug\TestInterface.exe
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestInterface\obj\Debug\TestInterface.pdb
