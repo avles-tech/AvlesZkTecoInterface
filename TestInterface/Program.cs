@@ -10,27 +10,39 @@ namespace TestInterface
 {
     internal class Program
     {
-       
-       
+        static System.Timers.Timer tmrDelay;
+        static ZKClient client = new ZKClient();
         static void Main(string[] args)
         {
-            ZKClient client = new ZKClient();
+            tmrDelay = new System.Timers.Timer(5000);
+            tmrDelay.Elapsed += new System.Timers.ElapsedEventHandler(tmrDelay_Elapsed);
+
+            tmrDelay.Enabled = true;
+
+           
             bool test = client.Connect("192.168.8.108", 4370);
             if (test)
             {
                 Console.WriteLine("connected ...");
-                //client.GetLogData();
-               
-               
+
             }
             else
             {
                 Console.WriteLine("somethin wrong");
             }
-            Console.WriteLine("press any key to close");
+
             Console.ReadLine();
+           
         }
 
-        
+        static void tmrDelay_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            string str = "Timer tick ";
+
+
+            client.WriteToFile(str);
+        }
+
+
     }
 }

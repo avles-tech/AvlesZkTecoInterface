@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInterface", "TestInterf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMKeeperCore", "ZMKeeperCore\ZMKeeperCore.csproj", "{34C3AA9F-3726-40A6-B384-7B191DCBF67A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWIndowsForm", "TestWIndowsForm\TestWIndowsForm.csproj", "{8A0EAA6E-8E0C-42FD-AF5B-0C592F328D5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{34C3AA9F-3726-40A6-B384-7B191DCBF67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C3AA9F-3726-40A6-B384-7B191DCBF67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C3AA9F-3726-40A6-B384-7B191DCBF67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0EAA6E-8E0C-42FD-AF5B-0C592F328D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0EAA6E-8E0C-42FD-AF5B-0C592F328D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0EAA6E-8E0C-42FD-AF5B-0C592F328D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0EAA6E-8E0C-42FD-AF5B-0C592F328D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

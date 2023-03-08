@@ -1,0 +1,3 @@
+bIsConnected
+RegEvent
+zkemClient_OnAttTransactionEx

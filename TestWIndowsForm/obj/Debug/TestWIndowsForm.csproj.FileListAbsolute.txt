@@ -1,0 +1,13 @@
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\bin\Debug\TestWIndowsForm.exe.config
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\bin\Debug\TestWIndowsForm.exe
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\bin\Debug\TestWIndowsForm.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\bin\Debug\ZMKeeperCore.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\bin\Debug\ZMKeeperCore.pdb
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.csproj.AssemblyReference.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.Form1.resources
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.Properties.Resources.resources
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.csproj.GenerateResource.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.csproj.CoreCompileInputs.cache
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.csproj.CopyComplete
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.exe
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\TestWIndowsForm\obj\Debug\TestWIndowsForm.pdb

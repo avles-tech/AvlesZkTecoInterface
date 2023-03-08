@@ -7,6 +7,5 @@ C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\
 C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.CoreCompileInputs.cache
 C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.exe
 C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.pdb
-C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\ZMKeeperCore.dll
-C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\bin\Debug\ZMKeeperCore.pdb
-C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.CopyComplete
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\smahe\source\repos\AvlesZKTecoInterface\AvlesZKTecoInterface\obj\Debug\AvlesZKTecoInterface.csproj.ResolveComReference.cache

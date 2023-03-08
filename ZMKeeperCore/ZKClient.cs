@@ -13,32 +13,37 @@ namespace ZMKeeperCore
 {
     public class ZKClient
     {
-        private static CZKEM axCZKEM1 = new CZKEM();
-        private static bool bIsConnected;
-        private static string iPAddress;
-        private static int port;
-        private static int machineNumber= 1;
+        public  CZKEM axCZKEM1 = new CZKEM();
+        private  bool bIsConnected;
+        private  string iPAddress;
+        private  int port;
+        private  int machineNumber= 1;
        
         public bool Connect(string iPAddress, int port)
         {
             bIsConnected = axCZKEM1.Connect_Net(iPAddress, port);
             if (bIsConnected)
             {
+                WriteToFile("bIsConnected");
                 if (axCZKEM1.RegEvent(1, 32767))
                 {
+                    WriteToFile("RegEvent");
+                    axCZKEM1.OnConnected += ObjCZKEM_OnConnected;
                     axCZKEM1.OnAttTransactionEx += new _IZKEMEvents_OnAttTransactionExEventHandler(zkemClient_OnAttTransactionEx);
                 }
-                    
-               
             }
             return bIsConnected;
         }
         private void zkemClient_OnAttTransactionEx(string EnrollNumber, int IsInValid, int AttState, int VerifyMethod, int Year, int Month, int Day, int Hour, int Minute, int Second, int WorkCode)
         {
-            Console.WriteLine("zkemClient_OnAttTransactionEx") ;
+            Console.WriteLine("zkemClient_OnAttTransactionEx");
+            WriteToFile("zkemClient_OnAttTransactionEx");
 
-            WriteToFile("working");
-           
+        }
+
+        private void ObjCZKEM_OnConnected()
+        {
+            WriteToFile("ObjCZKEM_OnConnected");
         }
 
         public ICollection<MachineInfo> GetLogData()
@@ -57,10 +62,10 @@ namespace ZMKeeperCore
             ICollection<MachineInfo> lstEnrollData = new List<MachineInfo>();
 
             axCZKEM1.ReadAllGLogData(machineNumber);
+            // dwInOutMode - dwInOutMode
+
 
             while (axCZKEM1.SSR_GetGeneralLogData(machineNumber, out dwEnrollNumber1, out dwVerifyMode, out dwInOutMode, out dwYear, out dwMonth, out dwDay, out dwHour, out dwMinute, out dwSecond, ref dwWorkCode))
-
-
             {
                 string inputDate = new DateTime(dwYear, dwMonth, dwDay, dwHour, dwMinute, dwSecond).ToString();
 
@@ -115,6 +120,7 @@ namespace ZMKeeperCore
 
         public void WriteToFile(string Message)
         {
+            Console.WriteLine(Message);
             string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";
             if (!Directory.Exists(path))
             {
@@ -136,6 +142,34 @@ namespace ZMKeeperCore
                     sw.WriteLine(Message);
                 }
             }
+        }
+
+        static string InorOut(int InOut)
+        {
+            string InOrOut = "";
+            switch (InOut)
+            {
+                case 0:
+                    InOrOut = "IN";
+                    break;
+                case 1:
+                    InOrOut = "OUT";
+                    break;
+                case 2:
+                    InOrOut = "BREAK-OUT";
+                    break;
+                case 3:
+                    InOrOut = "BREAK-IN";
+                    break;
+                case 4:
+                    InOrOut = "OVERTIME-IN";
+                    break;
+                case 5:
+                    InOrOut = "OVERTIME-OUT";
+                    break;
+
+            }
+            return InOrOut;
         }
     }
 
